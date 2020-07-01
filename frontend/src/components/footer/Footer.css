@@ -1,0 +1,17 @@
+.Footer {
+    background-color: #FAFAFA;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer p {
+    font-weight: 500;
+}
+
+.Footer-Icons img {
+    width: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}

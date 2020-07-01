@@ -1,0 +1,506 @@
+.Landing-Page {
+    width: 100%;
+}
+
+.Hero-Image {
+    position: relative;
+}
+
+.Hero-Image img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: -4px;
+    margin-top: -4px;
+}
+
+.Hero-Image .Logo img {
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 200px;
+}
+
+.Purple-Button {
+    background-color: #AC5FD0;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.Orange-Button {
+    background-color: #FF7218;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.Hero-Image-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Hero-Image-text h1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+
+.Hero-Image-text h2 {
+    margin-top: 0px;
+    font-size: 64px;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.Split-Section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.Split-Section-Left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Split-Section-Left-Text {
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.Split-Section-Left h1 {
+    color: 613476;
+    font-size: 40px;
+    color: #613476;
+}
+
+.Split-Section-Left h2 {
+    color: #613476;
+    cursor: pointer;
+}
+
+.Split-Section-Left p {
+    font-size: 16;
+    line-height: 22px;
+}
+
+.Split-Section-Right {
+    width: 50%;
+}
+
+.Split-Section-Right img {
+    width: 100%;
+}
+
+.Hero-Image-text-left {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: purple;
+}
+
+.Split-Section-Two-Right {
+    width: 50%;
+    background-color: #FAFAFA;
+    height: 611px;
+}
+
+.Icon-Wrap {
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: "top-left top-right" "bottom-left bottom-right";
+    grid-gap: 60px;
+    width: 90%;
+}
+
+.Icon-One {
+    grid-area: top-left;
+    justify-self: center;
+}
+
+.Icon-Two {
+    grid-area: top-right;
+    justify-self: start;
+}
+
+.Icon-Three {
+    grid-area: bottom-left;
+    justify-self: center;
+}
+
+.Icon-Four {
+    grid-area: bottom-right;
+    justify-self: start;
+}
+
+.Icon-Circle {
+    width: 125px;
+    height: 125px;
+    border: 1.3px solid purple;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Icon-Circle:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    background-color: #FF7218;
+}
+
+.Icon-Circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Icon-One img {
+    width: 70px;
+}
+
+.Icon-Two img {
+    width: 85px;
+}
+
+.Icon-Three img {
+    width: 80px;
+}
+
+.Icon-Four img {
+    width: 60px;
+}
+
+.Hero-Image-text-left-two {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+.Hero-Image-text-left-two h1 {
+    color: #613476;
+}
+
+.Split-Section-Three {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.Split-Section-Three-Left {
+    margin: 100px 0px 100px 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Split-Section-Three-Left-Text {
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 10%;
+    
+}
+
+.Split-Section-Three-Right {
+    width: 50%;
+}
+
+.Split-Section-Three-Left-Text h1 {
+    margin-bottom: 0px;
+}
+
+.Split-Section-Left-Text h1 {
+    margin-bottom: 0px;
+}
+
+/* carasoul */
+
+.arrow {
+    cursor: pointer;
+}
+
+.BrainhubCarousel__dot {
+    background-color: white;
+}
+
+.BrainhubCarousel__dot::before {
+    background-color: #FFE465!important;
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.BrainhubCarousel__container {
+    width: 70% !important;
+}
+
+.BrainhubCarousel__container p {
+    text-align: left;
+}
+
+.BrainhubCarousel__container h2 {
+    font-size: 18px;
+    color: #613476;
+}
+
+.stars-mobile {
+    display: none;
+}
+
+/* carasoul */
+
+@media only screen and (max-width: 1200px) {
+    .Split-Section-Left-Text {
+        width: 65%;
+    }
+    .Split-Section-Three-Left-Text {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Hero-Image-text h1 {
+        font-size: 50px;
+    }
+    .Hero-Image-text h2 {
+        font-size: 50px;
+    }
+    .Icon-Circle {
+        width: 100px;
+        height: 100px;
+        border: 1.3px solid purple;
+        border-radius: 50%;
+        position: relative;
+    }
+    .Hero-Image-text-left-two {
+        width: 40%;
+        left: 75%;
+    }
+    .Icon-One img {
+        width: 60px;
+    }
+    .Icon-Two img {
+        width: 75px;
+    }
+    E .Icon-Three img {
+        width: 70px;
+    }
+    .Icon-Four img {
+        width: 50px;
+    }
+    .Icon-Wrap h2 {
+        font-size: 20px;
+    }
+    .BrainhubCarousel__container {
+        width: 90% !important;
+    }
+    .Hero-Image-text-left-two h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Split-Section-Left {
+        width: 80%;
+    }
+    .stars-desktop {
+        display: none;
+    }
+    .stars-mobile {
+        display: block;
+    }
+    .Hero-Image-text {
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    .Hero-Image-text h1 {
+        font-size: 35px;
+    }
+    .Hero-Image-text h2 {
+        font-size: 30px;
+    }
+    .Split-Section-Three {
+        flex-direction: column;
+    }
+    .Split-Section {
+        flex-direction: column-reverse;
+    }
+    .Split-Section-Three-Left {
+        margin: 0px;
+    }
+    .Split-Section-Three-Left h1 {
+        font-size: 30px;
+    }
+    .Split-Section-Right {
+        display: none;
+    }
+    .Split-Section-Two-Right {
+        height: auto;
+    }
+    .Split-Section-Left-Text {
+        width: 100%;
+        margin: 0px;
+    }
+    .Split-Section-Three-Left-Text {
+        width: 100%;
+        margin: 0px;
+    }
+    .Icon-Wrap {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    .Split-Section-Two-Right {
+        background-color: white;
+        width: 100%;
+    }
+    .Icon-Circle {
+        width: 80px;
+        height: 80px;
+        border: 1.3px solid purple;
+        border-radius: 50%;
+        position: relative;
+        margin: 0px;
+    }
+    .Icon-One, .Icon-Four, .Icon-Two, .Icon-Three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Icon-One img {
+        width: 55px;
+    }
+    .Icon-Two img {
+        width: 65px;
+    }
+    .Icon-Three img {
+        width: 60px;
+    }
+    .Icon-Four img {
+        width: 50px;
+    }
+    .Icon-Wrap h2 {
+        font-size: 20px;
+    }
+    .Hero-Image img {
+        width: 100%;
+        height: 300px;
+    }
+    .BrainhubCarousel__container {
+        width: 100% !important;
+    }
+    .Split-Section-Three-Right {
+        width: 90%;
+    }
+    .Split-Section-Three-Left-Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Split-Section-Three-Left-Text h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Hero-Image .Logo img {
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 150px;
+    }
+    .Split-Section-Left-Text {
+        width: 100%;
+        margin: 0px;
+        margin-left: 10%;
+    }
+    .content .Hero-Image {
+        display: none;
+    }
+    .Split-Section.Second-Split {
+        background-color: #FAFAFA;
+    }
+    .Split-Section-Two-Right {
+        background-color: #FAFAFA;
+    }
+    .Purple-Button {
+        background-color: #AC5FD0;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 20px 10px 10px;
+        cursor: pointer;
+    }
+    .Split-Section-Three-Left {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Hero-Image .Logo img {
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 150px;
+    }
+    .Split-Section-Left-Text {
+        width: 100%;
+        margin: 0px;
+        margin-left: 10%;
+    }
+    .content .Hero-Image {
+        display: none;
+    }
+    .content.Split-Section:nth-child(2) {
+        background-color: #FAFAFA;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Split-Section-Left {
+        width: 90%;
+    }
+}
