@@ -21,6 +21,7 @@
     transform: translate(-50%, -50%);
     color: white;
     width: 200px;
+    height: 30px;
 }
 
 .Purple-Button {
@@ -28,10 +29,11 @@
     color: white;
     display: inline-block;
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 25px 15px 25px;
     cursor: pointer;
     box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .Orange-Button {
@@ -216,6 +218,7 @@
     display: flex;
     width: 100%;
     align-items: center;
+    padding-bottom: 110px;
 }
 
 .Split-Section-Three-Left {
@@ -224,6 +227,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .Split-Section-Three-Left-Text {
@@ -436,6 +440,9 @@
     }
     .Split-Section-Three-Left-Text h1 {
         text-align: center;
+    }
+    .Split-Section-Three {
+        padding-bottom: 110px;
     }
 }
 

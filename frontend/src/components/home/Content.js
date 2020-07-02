@@ -12,8 +12,6 @@ import './LandingPage.css';
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import ReactStars from 'react-stars'
 
-
-
 function Content() {
     return (
         <div className='content'>
@@ -205,9 +203,10 @@ function Content() {
                         </p>
                         </div>
                     </Carousel>
+
+
                 </div>
             </section>
-
         </div >
     );
 

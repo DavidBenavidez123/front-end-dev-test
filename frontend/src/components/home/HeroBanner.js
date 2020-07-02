@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring'
 import './LandingPage.css';
 import Hero from '../common/hero.jpg'
 import Logo from '../common/logo-white.svg'
+import { Link } from 'react-router-dom';
 
 function HeroBanner() {
 
@@ -10,10 +11,15 @@ function HeroBanner() {
 
     return (
         <div className='Hero-Image'>
+
             <div className='Logo'>
-                <img src={Logo} />
+                <Link to='/'>
+                    <img src={Logo} />
+                </Link>
             </div>
+
             <img src={Hero} alt='Hero-Image' />
+
             <div className='Hero-Image-text'>
                 <animated.div style={text}>
                     <h1>
@@ -23,9 +29,13 @@ function HeroBanner() {
                         Rooster Grin
                         </h2>
                 </animated.div>
-                <p className='Purple-Button'>
-                    Button Button
-                </p>
+
+                <Link to='/Register'>
+                    <p className='Purple-Button'>
+                        Register
+                    </p>
+                </Link>
+
             </div>
         </div>
     );
